@@ -1,0 +1,12 @@
+﻿<xapCache source="D:\My Projects\wp\WebLogin\WebLogin\Bin\Debug\WebLogin_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014/10/21 19:31:58">
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\obj\Debug\WebLogin.dll" archivePath="WebLogin.dll" lastWriteTime="2014/10/21 19:31:58" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014/9/27 19:58:17" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014/9/27 19:58:17" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014/9/27 19:58:17" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014/9/27 19:58:17" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014/9/27 19:58:17" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014/9/27 19:58:20" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014/9/27 19:58:17" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014/9/27 19:58:17" />
+  <file source="D:\My Projects\wp\WebLogin\WebLogin\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014/9/27 19:58:20" />
+</xapCache>

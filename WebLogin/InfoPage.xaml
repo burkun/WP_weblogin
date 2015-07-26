@@ -1,0 +1,69 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="WebLogin.Info"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot 是包含所有页面内容的根网格-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel 包含应用程序的名称和页标题-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Srun Login" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock Text="登陆信息" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - 在此处放置其他内容-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1.5*"></RowDefinition>
+                <RowDefinition Height="3*"></RowDefinition>
+                <RowDefinition Height="6*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid x:Name="InfoGrid" Background="Transparent" Grid.Row="1" Margin="10,10,10,10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="2*"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*"></ColumnDefinition>
+                    <ColumnDefinition Width="7*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Row="0" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right">
+            		<Run Text="用户名"/>
+            		<Run Text="："/>
+            		<Run Text=" "/>
+                </TextBlock>
+                <TextBlock x:Name="AccountInfoLabel" Text="1231231231231231" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right">
+                	<Run Text="已使用流量"/>
+                	<Run Text="："/>
+                    <Run Text=" "/>
+                </TextBlock>
+                <TextBlock x:Name="KBInfoLabel" Text="1231231231231231" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+                <TextBlock Text="账户余额： " Grid.Row="2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right"></TextBlock>
+                <TextBlock x:Name="MoneyInfoLabel" Text="1231231231231231" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"></TextBlock>
+            </Grid>
+            <Button x:Name="LogoutBtn" Content="注销" HorizontalAlignment="Center" Grid.Row ="2" Grid.Column="0" VerticalAlignment="Top"  Width="186" Margin="40"/>
+            <TextBlock  TextAlignment="Center" VerticalAlignment="Center" Text="服务器返回信息！！！" x:Name="ServerInfoLabel"></TextBlock>
+        </Grid>
+
+
+    </Grid>
+
+
+</phone:PhoneApplicationPage>
